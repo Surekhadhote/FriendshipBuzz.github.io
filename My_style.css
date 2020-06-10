@@ -1,0 +1,613 @@
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red; 
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+#My_head
+{
+ border-radius: 5px;
+ width: 99%;
+ padding: 4px;
+ background: linear-gradient(110deg, #f8eb3391 60%, #e7fd20c2 60%);
+ height: 100px;
+
+ 
+}
+#My_head1
+{   text-align: left;
+    
+    height: 60px;
+    width: 99%;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, rgba(102, 255, 0, 0.623), red);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+}
+#My_head1:hover
+{
+  background-image: linear-gradient(to right,violet, indigo, blue, green, yellow, orange, red );
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+  
+}
+#My_head2
+{   display: inline-block;
+    padding-top: 5px;
+    border-top: 2px solid black;
+    border-color: rgba(239, 253, 44, 0.808);
+    width: 99%;
+    padding-left: 5px;
+    text-align: right;
+}
+#logo_face
+{
+    width: 25px;
+    height: 25px;
+}
+#logo_face:hover
+{   
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px 5px white;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+#logo_mess
+{
+    width: 25px;
+    height: 25px;
+}
+#logo_mess:hover
+{   
+  
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px 5px white;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+#logo_about
+{
+    width: 25px;
+    height: 25px;
+}
+#logo_about:hover
+{
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px 5px white;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+#Dis_runn
+{   
+    display: inline-block ;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 0;
+    height:auto;
+    width: 98%;
+    
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+    border-radius: 5px;
+    text-align: center;
+ 
+}
+
+#showcase
+{
+  background-image: url("banner.gif");
+  height: 150px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  box-shadow: 1px 1px 14px 5px gray;
+ 
+}
+
+
+#My_con
+{  margin-top: 40px;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+    width: auto;
+}
+#con_in1
+{   
+  display: table;
+    margin-left: auto;
+    margin-right: auto;
+    
+    height: auto;
+    width: auto;
+   
+}
+#con_in2
+{   display: table;
+  margin-left: auto;
+  margin-right: auto;
+    height: auto;
+    width: auto;
+    
+}
+
+
+.glow {
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+  .glow:hover {
+    font-size: 30px;
+    color: rgb(26, 22, 22);
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    cursor: pointer;
+  }
+  .button {
+    background-color: #f4511e;
+    border: none;
+    border-bottom:4px solid  rgba(124, 107, 107, 0.815);
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    width: 100%;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline;
+    text-decoration: none;
+    cursor: pointer;
+    height: 120px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+  }
+  
+  .button:hover {opacity: 1.2}
+
+
+  #My_footer{
+    height: auto;
+    margin-top: 40px;
+    
+    width: 100%;
+    display: inline-block ;
+    margin-left: 0;
+    background: linear-gradient(110deg, #e226058f 60%, #ff0000b0 60%);
+    border-radius: 5px;
+    text-align: center;
+}
+#foot2
+{
+ text-align: center;
+ height: auto;
+ width: 100%;
+}
+#foot1
+{
+ display: inline-block;
+}
+
+.footlogos img
+{
+  width: 30px;
+  height: 30px;
+}
+.footlogos img:hover
+{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+#about{
+  color: white;
+
+
+}
+
+
+
+/* Love Calculator    */
+#ht
+{
+ visibility: hidden;
+ background:url("Heart1.png");
+ width:100px;
+ height:100px;
+ position: absolute;
+ border-radius:17px;
+ border: 3px solid #fff;
+}
+#heart
+{
+  visibility: hidden;
+ position: absolute;
+ 
+ width: 104px;
+ height: 100px;
+ 
+ border-radius:17px;
+ background: transparent;
+ 
+ 
+
+}
+
+#animate
+{ visibility: hidden;
+  position: absolute;
+  background: yellow;
+  border-radius:17px ;
+  height: 2px;
+  width: 110;
+}
+#Result
+{
+   margin-left: 110px;
+   margin-top: 30px;
+}
+
+
+#resl
+{
+   width: auto;
+   height: auto;
+   align-items: center;
+   display: flex;
+   position: relative;
+   
+}
+
+
+.txt_area
+{
+  width:84%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  padding: 8px 10px;
+  margin: 10px 0px;
+  outline: none;
+}
+
+
+
+
+/* FORM CSS START */
+.main-content
+{
+  margin-bottom: 30px;
+}
+.form-div {
+  max-width: 50%;
+  margin: 30px auto;
+  
+}
+
+form.calc-form {
+  box-shadow: 1px 6px 20px 0px #e9f38f;
+  padding: 50px 25px;
+  text-align: center;
+  background-image: linear-gradient(110deg, #e226058f 60%, #ff0000b0 60%);
+  border-radius: 10px;
+  
+}
+
+input.site-input {
+  width:84%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  padding: 8px 10px;
+  margin: 10px 0px;
+}
+
+option {
+  color: #7762f1 !important;
+}
+
+select.site-dropdown:focus {
+  outline: 0;
+}
+
+select.site-dropdown:hover {
+  cursor: pointer;
+}
+
+input.site-input:focus {
+  outline: 0;
+}
+
+::placeholder {
+  color: white;
+}
+
+input {
+  font-family: "Poppins";
+}
+
+.site-submit {
+  background: none;
+  border: 1px solid white;
+  color: white;
+  padding: 7px 30px;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+.site-submit:hover {
+  cursor: pointer;
+  transition: 0.4s;
+  background: white;
+  color: #5f74f0;
+}
+
+input.site-input.one::after {
+  background-image: url("like.png");
+}
+
+h4.site-heading.white.pb-3 {
+  font-size: 32px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+select.site-dropdown {
+  width: 80%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  padding: 8px 10px;
+  margin: 10px 0px;
+}
+
+
+/* FORM STYLE END */
+
+
+/* Find Your Luck    */
+
+
+
+
+/* Name Matcher   */
+
+
+
+/* Birthday Gift Card Maker    */
+
+
+
+
+
+
+/* About   */
+
+#About_box
+{
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(110deg, #8f1b078f 60%, #fbff0063 60%);
+  border: none;
+  border-top: 2px solid gray;
+  margin-top: 50px;
+  padding: 40px 40px;
+  color: white;
+}
+p::first-letter{
+ font-size: 250%;
+ color: yellow;
+
+}
+
+
+/* Message Contact  */
+
+#Mess_area
+{
+   width: 100%;
+   height: 40px;
+   border: 1px solid black;
+   border-radius: 10px;
+   outline: none;
+  
+}
+#T_area
+{
+  width:90%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  padding: 8px 10px;
+  margin: 10px 0px;
+}
+#B_area
+{
+  width: 100%;
+  height: 40px;
+  background-color: rgba(248, 248, 39, 0.63);
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  color: #fff;
+
+}
+#B_area:hover{
+  box-shadow: 1px 1px 6px 2px burlywood;
+  cursor: pointer;
+}
+
+
+/* Birthday Card */
+#form-div
+{
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+  
+  border: none;
+  
+  color: white;
+  padding: 8px 10px;
+  
+}
+#Bday1
+{
+  margin-top: 50px;
+  visibility: visible;
+  
+  
+
+}
+#Bday2
+{
+  position: absolute;
+  visibility: hidden;
+  height: fit-content;
+  transform: translate(-0%,-83%);
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #3bd0fd8f;
+  border-radius: 20px;
+  width: 50%;
+
+}
+#bt1
+{
+  width: 50px;
+  visibility: hidden;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: #fdcd3b;
+}
+#bt2
+{
+  width: 50px;
+  visibility: hidden;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: #fdcd3b;
+}
+#cont
+{ 
+  margin-top: 10px;
+  height: auto;
+  width: 30%;
+  border:2px solid white;
+  border-radius: 100%;
+  margin-left: 33%;
+  
+
+}
+
+.birthday-card {
+  margin: 40px auto;
+  padding: 16px;
+  max-width: 400px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 24px 40px -8px #311B92;
+}
+.birthday-card img {
+  width: 100%;
+}
+ 
+
+/* Find luck  */
+
+#Luck
+{
+  position: absolute;
+  visibility: hidden;
+  max-width: 50%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #7862f1b6;
+  height: fit-content;
+  transform: translate(15%,-90%);
+  border-radius: 15px;
+}
+
+#Luck2
+{
+  height: auto;
+  visibility: hidden;
+  margin-top: 15px;
+  border: none;
+  
+  
+
+}
+
+#bck
+{
+  width: 50px;
+  visibility: hidden;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: #fdcd3b;
+}
+
+
+a{
+  color: transparent;
+  text-decoration: none;
+}

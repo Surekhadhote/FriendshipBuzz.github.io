@@ -259,6 +259,7 @@
 /* Love Calculator    */
 #ht
 {
+  margin-top: 40px ;
  visibility: hidden;
  background:url("Heart1.png");
  width:100px;

@@ -270,7 +270,7 @@
 }
 #heart
 {
-  margin-top: 40px ;
+  
   visibility: hidden;
  position: absolute;
  
@@ -306,6 +306,7 @@
    align-items: center;
    display: flex;
    position: relative;
+   margin-top:40px;
    
 }
 

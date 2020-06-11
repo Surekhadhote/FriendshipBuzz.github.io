@@ -14,14 +14,7 @@ function op4()
 {
     window.open("Birth_Gift_card.html");
 }
-function ab()
-{
-    this.window.open("About.html");
-}
-function ms()
-{
-    window.open("Contact.html");
-}
+
 
 /* Email Send */
 

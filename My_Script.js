@@ -1,20 +1,3 @@
-function op1()
-{
- window.open("Love_cal.html");
-}
-function op2()
-{
-    window.open("Find_luck.html");
-}
-function op3()
-{
-    window.open("Name_matcher.html");
-}
-function op4()
-{
-    window.open("Birth_Gift_card.html");
-}
-
 
 /* Email Send */
 
